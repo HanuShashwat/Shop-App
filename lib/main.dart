@@ -48,9 +48,10 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: ProductDetailsPage(
-        product: products[0],
-      ),
+      home: HomePage(),
+      // home: ProductDetailsPage(
+      //   product: products[0],
+      // ),
     );
   }
 }
